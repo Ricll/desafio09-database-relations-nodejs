@@ -1,0 +1,20 @@
+# Table Relations
+
+# customer
+
+Faz o pedido -> Pedido resgistrado
+
+# products
+
+# order
+
+- Relation Customer -> AddCustomerIdToOrders
+- (costumer_id)
+
+# order products
+(id, id_product, id_order, quantity, value)
+
+
+
+
+
